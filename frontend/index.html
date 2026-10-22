@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Gestion des articles</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Gestion des articles</h1>
+
+        <p>Application Full Stack MERN</p>
+
+        <h2>Ajouter un article</h2>
+
+        <form id="formulaire">
+
+            <input
+                type="text"
+                id="nom"
+                placeholder="Nom de l'article"
+                required
+            >
+
+            <button type="submit">
+                Ajouter
+            </button>
+
+        </form>
+
+        <p id="message" role="status"></p>
+
+        <h2>Liste des articles</h2>
+
+        <ul id="liste"></ul>
+
+    </div>
+
+</body>
+</html>

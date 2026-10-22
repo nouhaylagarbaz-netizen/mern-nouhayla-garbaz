@@ -1,0 +1,103 @@
+
+/* Style general */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Conteneur principal */
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+/* Titres */
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #444;
+    margin-top: 30px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+/* Formulaire */
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+/* Champ de saisie */
+
+input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Bouton */
+
+button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Liste */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f1f1f1;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+/* Messages */
+
+#message {
+    color: red;
+}
+
+/* Responsive */
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    form {
+        flex-direction: column;
+    }
+}
